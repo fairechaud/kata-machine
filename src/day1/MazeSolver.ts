@@ -1,8 +1,8 @@
 const dir = [
     [-1,0],
+    [0,1],
     [1,0],
-    [0,-1],
-    [0,1]
+    [0,-1]
 ];
 function walk(maze: string[], wall: string, curr: Point, end: Point, seen: boolean[][], path: Point[]): boolean {
     // BASE CASES:
